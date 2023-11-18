@@ -4,7 +4,7 @@
 mkdir //创建目录
 ```
 
-文件和目录操作：
+
 
 ls: 列出当前目录下的文件和文件夹。
 cd: 切换目录，例如 cd Documents 进入 Documents 目录。
