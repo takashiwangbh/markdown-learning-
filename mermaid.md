@@ -90,3 +90,114 @@ classDiagram
     Animal <|-- Dog
 
 ```
+
+####饼图
+
+```markdown
+pie
+    title Pets adopted by clients
+    "Dogs" : 42.1
+    "Cats" : 30.8
+    "Rats" : 2.1
+```
+
+```mermaid
+pie
+    title Pets adopted by clients
+    "Dogs" : 42.1
+    "Cats" : 30.8
+    "Rats" : 2.1
+```
+
+####实体关系图
+
+```markdown
+erDiagram
+    customer ||--o{ order : places
+    order ||--|{ line-item : contains
+
+```
+
+```mermaid
+erDiagram
+    customer ||--o{ order : places
+    order ||--|{ line-item : contains
+```
+
+####状态图
+
+```mrakdown
+stateDiagram
+    [*] --> State1
+    State1 --> [*]
+    State1 : this is a string
+    State1 : this is another string
+    State1 --> State2
+    State2 --> [*]
+```
+
+```mermaid
+stateDiagram
+    [*] --> State1
+    State1 --> [*]
+    State1 : this is a string
+    State1 : this is another string
+    State1 --> State2
+    State2 --> [*]
+```
+
+####网络图
+
+```markdown
+graph LR
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
+```
+
+```mermaid
+graph LR
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
+```
+
+####思维导图
+
+```markdown
+graph TB
+    Root
+    A[Square Rect]
+    B((Circle))
+    C(Round Rect)
+    D{Rhombus}
+    E((Circle))
+
+    Root --> A
+    Root --> B
+    Root --> C
+    A --> D
+    B --> D
+    C --> D
+    D --> E
+```
+
+```mermaid
+graph TB
+    Root
+    A[Square Rect]
+    B((Circle))
+    C(Round Rect)
+    D{Rhombus}
+    E((Circle))
+
+    Root --> A
+    Root --> B
+    Root --> C
+    A --> D
+    B --> D
+    C --> D
+    D --> E
+```
