@@ -1,8 +1,8 @@
 
-#Mermaid
-##mermaid是用来做流程图的语言,用的markdown语言
+# Mermaid
+## mermaid是用来做流程图的语言,用的markdown语言
 
-####流程图
+#### 流程图
 ```markdown
 graph TD;
     A-->B;
@@ -21,7 +21,7 @@ graph TD;
 
 ```
 
-####时序图
+#### 时序图
 ```markdown
 sequenceDiagram
     participant A as Alice
@@ -37,7 +37,7 @@ sequenceDiagram
     B->>A: I'm good, thank you!
 ```
 
-####甘特图
+#### 甘特图
 ```markdown
 gantt
     title A Gantt Diagram
@@ -61,7 +61,7 @@ gantt
 
 ```
 
-####类图
+#### 类图
 ```markdown
 classDiagram
     class Animal {
@@ -91,7 +91,7 @@ classDiagram
 
 ```
 
-####饼图
+#### 饼图
 
 ```markdown
 pie
@@ -109,7 +109,7 @@ pie
     "Rats" : 2.1
 ```
 
-####实体关系图
+#### 实体关系图
 
 ```markdown
 erDiagram
@@ -124,7 +124,7 @@ erDiagram
     order ||--|{ line-item : contains
 ```
 
-####状态图
+#### 状态图
 
 ```mrakdown
 stateDiagram
@@ -146,7 +146,7 @@ stateDiagram
     State2 --> [*]
 ```
 
-####网络图
+#### 网络图
 
 ```markdown
 graph LR
@@ -164,7 +164,7 @@ graph LR
     C --> D
 ```
 
-####思维导图
+#### 思维导图
 
 ```markdown
 graph TB
