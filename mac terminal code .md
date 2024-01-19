@@ -1,10 +1,4 @@
-#mac 终端命令
-
-```c
-mkdir //创建目录
-```
-
-
+# mac 终端命令
 
 ls: 列出当前目录下的文件和文件夹。
 cd: 切换目录，例如 cd Documents 进入 Documents 目录。
@@ -123,5 +117,6 @@ Control+C 终端命令的执行
 Control+A 返回行首
 
 Control+E 返回行尾
+ 
 
 
